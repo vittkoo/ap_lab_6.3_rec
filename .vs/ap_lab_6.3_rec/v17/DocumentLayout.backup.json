@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS_projects\\ap_lab_6.3_rec\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77C1A526-3780-44DE-A145-B5E494C6B7DD}|UnitTest_6.3_rec\\UnitTest_6.3_rec.vcxproj|D:\\VS_projects\\ap_lab_6.3_rec\\UnitTest_6.3_rec\\UnitTest_6.3_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{77C1A526-3780-44DE-A145-B5E494C6B7DD}|UnitTest_6.3_rec\\UnitTest_6.3_rec.vcxproj|solutionrelative:UnitTest_6.3_rec\\UnitTest_6.3_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B46FFA72-9856-4840-B343-266C92FDC304}|ap_lab_6.3_rec\\ap_lab_6.3_rec.vcxproj|D:\\VS_projects\\ap_lab_6.3_rec\\ap_lab_6.3_rec\\lab_6.3_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B46FFA72-9856-4840-B343-266C92FDC304}|ap_lab_6.3_rec\\ap_lab_6.3_rec.vcxproj|solutionrelative:ap_lab_6.3_rec\\lab_6.3_rec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lab_6.3_rec.cpp",
+              "DocumentMoniker": "D:\\VS_projects\\ap_lab_6.3_rec\\ap_lab_6.3_rec\\lab_6.3_rec.cpp",
+              "RelativeDocumentMoniker": "ap_lab_6.3_rec\\lab_6.3_rec.cpp",
+              "ToolTip": "D:\\VS_projects\\ap_lab_6.3_rec\\ap_lab_6.3_rec\\lab_6.3_rec.cpp",
+              "RelativeToolTip": "ap_lab_6.3_rec\\lab_6.3_rec.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-17T12:15:54.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest_6.3_rec.cpp",
+              "DocumentMoniker": "D:\\VS_projects\\ap_lab_6.3_rec\\UnitTest_6.3_rec\\UnitTest_6.3_rec.cpp",
+              "RelativeDocumentMoniker": "UnitTest_6.3_rec\\UnitTest_6.3_rec.cpp",
+              "ToolTip": "D:\\VS_projects\\ap_lab_6.3_rec\\UnitTest_6.3_rec\\UnitTest_6.3_rec.cpp*",
+              "RelativeToolTip": "UnitTest_6.3_rec\\UnitTest_6.3_rec.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-17T12:17:49.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
