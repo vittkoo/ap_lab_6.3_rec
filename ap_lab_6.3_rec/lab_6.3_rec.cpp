@@ -19,26 +19,47 @@ void Print(int* a, const int size, int i) {
 }
 
 int IFirst(int* a, const int size, int& minOdd, int i) {
+    if (i >= size) 
+        return -1;
     if (a[i] % 2 != 0) {
         minOdd = a[i];
         return i;
     }
-
-    if (i < size - 1)
-        return IFirst(a, size, minOdd, i + 1);
-    else
-        return -1;
+    return IFirst(a, size, minOdd, i + 1);
 }
 
 int MinOdd(int* a, const int size, int minOdd, int i) {
-    if (a[i] < minOdd && a[i] % 2 != 0)
-        minOdd = a[i];
-
-    if (i < size - 1)
-        return MinOdd(a, size, minOdd, i + 1);
-    else
+    if (i >= size) 
         return minOdd;
+    if (a[i] % 2 != 0) {
+        if (minOdd == -1 || a[i] < minOdd)
+            minOdd = a[i];
+    }
+    return MinOdd(a, size, minOdd, i + 1);
 }
+
+template <typename T>
+int IFirstTemplate(T* a, const int size, T& minOdd, int i) {
+    if (i >= size) 
+        return -1;
+    if (a[i] % 2 != 0) {
+        minOdd = a[i];
+        return i;
+    }
+    return IFirstTemplate(a, size, minOdd, i + 1);
+}
+
+
+template <typename T>
+int MinOddTemplate(T* a, const int size, int minOdd, int i) {
+    if (i >= size) return minOdd;
+    if (a[i] % 2 != 0) {
+        if (minOdd == -1 || a[i] < minOdd)
+            minOdd = a[i];
+    }
+    return MinOddTemplate(a, size, minOdd, i + 1);
+}
+
 
 int main() {
     srand((unsigned)time(NULL));
@@ -59,6 +80,14 @@ int main() {
         cerr << "There`s no odd elements!" << endl;
     else
         cout << "minOdd = " << MinOdd(a, n, minOdd, imin + 1) << endl;
+
+    int minOddTemplate;
+    int iminTemplate = IFirstTemplate(a, n, minOddTemplate, 0);
+
+    if (iminTemplate == -1)
+        cerr  << "There's no odd elements!" << endl;
+    else
+        cout << "minOddTemplate = " << MinOddTemplate(a, n, minOddTemplate, iminTemplate + 1) << endl;
 
     return 0;
 }
